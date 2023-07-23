@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3580AFBB2A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580AFBA2A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabViewApp.swift */; };
+		3580AFBD2A6BD3F500DC28F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580AFBC2A6BD3F500DC28F7 /* ContentView.swift */; };
+		3580AFBF2A6BD3F800DC28F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3580AFBE2A6BD3F800DC28F7 /* Assets.xcassets */; };
+		3580AFC22A6BD3F800DC28F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3580AFC12A6BD3F800DC28F7 /* Preview Assets.xcassets */; };
+		3580AFCC2A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580AFCB2A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests.swift */; };
+		3580AFD62A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580AFD52A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests.swift */; };
+		3580AFD82A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3580AFD72A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3580AFC82A6BD3F800DC28F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3580AFAF2A6BD3F500DC28F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3580AFB62A6BD3F500DC28F7;
+			remoteInfo = CustomAnimatedIndicatorForPageTabView;
+		};
+		3580AFD22A6BD3F800DC28F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3580AFAF2A6BD3F500DC28F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3580AFB62A6BD3F500DC28F7;
+			remoteInfo = CustomAnimatedIndicatorForPageTabView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3580AFB72A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAnimatedIndicatorForPageTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3580AFBA2A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimatedIndicatorForPageTabViewApp.swift; sourceTree = "<group>"; };
+		3580AFBC2A6BD3F500DC28F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3580AFBE2A6BD3F800DC28F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3580AFC12A6BD3F800DC28F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3580AFC72A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAnimatedIndicatorForPageTabViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3580AFCB2A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimatedIndicatorForPageTabViewTests.swift; sourceTree = "<group>"; };
+		3580AFD12A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAnimatedIndicatorForPageTabViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3580AFD52A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimatedIndicatorForPageTabViewUITests.swift; sourceTree = "<group>"; };
+		3580AFD72A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimatedIndicatorForPageTabViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3580AFB42A6BD3F500DC28F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580AFC42A6BD3F800DC28F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580AFCE2A6BD3F800DC28F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3580AFAE2A6BD3F500DC28F7 = {
+			isa = PBXGroup;
+			children = (
+				3580AFB92A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabView */,
+				3580AFCA2A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests */,
+				3580AFD42A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests */,
+				3580AFB82A6BD3F500DC28F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3580AFB82A6BD3F500DC28F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3580AFB72A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabView.app */,
+				3580AFC72A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests.xctest */,
+				3580AFD12A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3580AFB92A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabView */ = {
+			isa = PBXGroup;
+			children = (
+				3580AFBA2A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabViewApp.swift */,
+				3580AFBC2A6BD3F500DC28F7 /* ContentView.swift */,
+				3580AFBE2A6BD3F800DC28F7 /* Assets.xcassets */,
+				3580AFC02A6BD3F800DC28F7 /* Preview Content */,
+			);
+			path = CustomAnimatedIndicatorForPageTabView;
+			sourceTree = "<group>";
+		};
+		3580AFC02A6BD3F800DC28F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3580AFC12A6BD3F800DC28F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3580AFCA2A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3580AFCB2A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests.swift */,
+			);
+			path = CustomAnimatedIndicatorForPageTabViewTests;
+			sourceTree = "<group>";
+		};
+		3580AFD42A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3580AFD52A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests.swift */,
+				3580AFD72A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITestsLaunchTests.swift */,
+			);
+			path = CustomAnimatedIndicatorForPageTabViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3580AFB62A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3580AFDB2A6BD3F800DC28F7 /* Build configuration list for PBXNativeTarget "CustomAnimatedIndicatorForPageTabView" */;
+			buildPhases = (
+				3580AFB32A6BD3F500DC28F7 /* Sources */,
+				3580AFB42A6BD3F500DC28F7 /* Frameworks */,
+				3580AFB52A6BD3F500DC28F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomAnimatedIndicatorForPageTabView;
+			productName = CustomAnimatedIndicatorForPageTabView;
+			productReference = 3580AFB72A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3580AFC62A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3580AFDE2A6BD3F800DC28F7 /* Build configuration list for PBXNativeTarget "CustomAnimatedIndicatorForPageTabViewTests" */;
+			buildPhases = (
+				3580AFC32A6BD3F800DC28F7 /* Sources */,
+				3580AFC42A6BD3F800DC28F7 /* Frameworks */,
+				3580AFC52A6BD3F800DC28F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3580AFC92A6BD3F800DC28F7 /* PBXTargetDependency */,
+			);
+			name = CustomAnimatedIndicatorForPageTabViewTests;
+			productName = CustomAnimatedIndicatorForPageTabViewTests;
+			productReference = 3580AFC72A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3580AFD02A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3580AFE12A6BD3F800DC28F7 /* Build configuration list for PBXNativeTarget "CustomAnimatedIndicatorForPageTabViewUITests" */;
+			buildPhases = (
+				3580AFCD2A6BD3F800DC28F7 /* Sources */,
+				3580AFCE2A6BD3F800DC28F7 /* Frameworks */,
+				3580AFCF2A6BD3F800DC28F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3580AFD32A6BD3F800DC28F7 /* PBXTargetDependency */,
+			);
+			name = CustomAnimatedIndicatorForPageTabViewUITests;
+			productName = CustomAnimatedIndicatorForPageTabViewUITests;
+			productReference = 3580AFD12A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3580AFAF2A6BD3F500DC28F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3580AFB62A6BD3F500DC28F7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					3580AFC62A6BD3F800DC28F7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3580AFB62A6BD3F500DC28F7;
+					};
+					3580AFD02A6BD3F800DC28F7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 3580AFB62A6BD3F500DC28F7;
+					};
+				};
+			};
+			buildConfigurationList = 3580AFB22A6BD3F500DC28F7 /* Build configuration list for PBXProject "CustomAnimatedIndicatorForPageTabView" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3580AFAE2A6BD3F500DC28F7;
+			productRefGroup = 3580AFB82A6BD3F500DC28F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3580AFB62A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabView */,
+				3580AFC62A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests */,
+				3580AFD02A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3580AFB52A6BD3F500DC28F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580AFC22A6BD3F800DC28F7 /* Preview Assets.xcassets in Resources */,
+				3580AFBF2A6BD3F800DC28F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580AFC52A6BD3F800DC28F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580AFCF2A6BD3F800DC28F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3580AFB32A6BD3F500DC28F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580AFBD2A6BD3F500DC28F7 /* ContentView.swift in Sources */,
+				3580AFBB2A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabViewApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580AFC32A6BD3F800DC28F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580AFCC2A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3580AFCD2A6BD3F800DC28F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3580AFD82A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITestsLaunchTests.swift in Sources */,
+				3580AFD62A6BD3F800DC28F7 /* CustomAnimatedIndicatorForPageTabViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3580AFC92A6BD3F800DC28F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3580AFB62A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabView */;
+			targetProxy = 3580AFC82A6BD3F800DC28F7 /* PBXContainerItemProxy */;
+		};
+		3580AFD32A6BD3F800DC28F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3580AFB62A6BD3F500DC28F7 /* CustomAnimatedIndicatorForPageTabView */;
+			targetProxy = 3580AFD22A6BD3F800DC28F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3580AFD92A6BD3F800DC28F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3580AFDA2A6BD3F800DC28F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3580AFDC2A6BD3F800DC28F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomAnimatedIndicatorForPageTabView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yejin.CustomAnimatedIndicatorForPageTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3580AFDD2A6BD3F800DC28F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomAnimatedIndicatorForPageTabView/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yejin.CustomAnimatedIndicatorForPageTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3580AFDF2A6BD3F800DC28F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yejin.CustomAnimatedIndicatorForPageTabViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomAnimatedIndicatorForPageTabView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomAnimatedIndicatorForPageTabView";
+			};
+			name = Debug;
+		};
+		3580AFE02A6BD3F800DC28F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yejin.CustomAnimatedIndicatorForPageTabViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomAnimatedIndicatorForPageTabView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomAnimatedIndicatorForPageTabView";
+			};
+			name = Release;
+		};
+		3580AFE22A6BD3F800DC28F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yejin.CustomAnimatedIndicatorForPageTabViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomAnimatedIndicatorForPageTabView;
+			};
+			name = Debug;
+		};
+		3580AFE32A6BD3F800DC28F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yejin.CustomAnimatedIndicatorForPageTabViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomAnimatedIndicatorForPageTabView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3580AFB22A6BD3F500DC28F7 /* Build configuration list for PBXProject "CustomAnimatedIndicatorForPageTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580AFD92A6BD3F800DC28F7 /* Debug */,
+				3580AFDA2A6BD3F800DC28F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3580AFDB2A6BD3F800DC28F7 /* Build configuration list for PBXNativeTarget "CustomAnimatedIndicatorForPageTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580AFDC2A6BD3F800DC28F7 /* Debug */,
+				3580AFDD2A6BD3F800DC28F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3580AFDE2A6BD3F800DC28F7 /* Build configuration list for PBXNativeTarget "CustomAnimatedIndicatorForPageTabViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580AFDF2A6BD3F800DC28F7 /* Debug */,
+				3580AFE02A6BD3F800DC28F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3580AFE12A6BD3F800DC28F7 /* Build configuration list for PBXNativeTarget "CustomAnimatedIndicatorForPageTabViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3580AFE22A6BD3F800DC28F7 /* Debug */,
+				3580AFE32A6BD3F800DC28F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3580AFAF2A6BD3F500DC28F7 /* Project object */;
+}
